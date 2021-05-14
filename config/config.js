@@ -462,6 +462,8 @@ exports.replsocketmode = 0o600;
  */
 exports.disablehotpatchall = false;
 
+exports.nofswriting = true;
+
 /**
  * forcedpublicprefixes - user ID prefixes which will be forced to battle publicly.
  * Battles involving user IDs which begin with one of the prefixes configured here
